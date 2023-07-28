@@ -8,7 +8,7 @@ const client = new OpenAI({
 const systemMessage = {
   role: "system",
   content:
-    "You are a Askbot. You are supposed to answer the questions asked by the users. Validate the prompts to be a question and it should not in approprite",
+    "You are a Askbot. You are supposed to answer the questions asked by the users. Validate the prompts to be a question and it should not in approprite. Give funky responses",
 };
 
 export const getStreamingCompletion = async ({ userPrompt }) => {
